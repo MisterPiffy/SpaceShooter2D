@@ -1,0 +1,24 @@
+﻿  main.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(408): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(408): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(408): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(451): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(451): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(451): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(459): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(459): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(459): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(466): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(466): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(466): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(702): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(702): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(702): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(725): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(725): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(725): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(733): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(733): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(733): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  SpaceShooter.vcxproj -> C:\Users\zlkcr_000\Desktop\NJIT\Fall2017\2D Game Dev\C++ Projects\SpaceShooter\Debug\SpaceShooter.exe
+  SpaceShooter.vcxproj -> C:\Users\zlkcr_000\Desktop\NJIT\Fall2017\2D Game Dev\C++ Projects\SpaceShooter\Debug\SpaceShooter.pdb (Full PDB)
