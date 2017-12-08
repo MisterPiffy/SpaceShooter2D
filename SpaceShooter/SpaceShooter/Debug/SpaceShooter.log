@@ -1,24 +1,124 @@
 ﻿  main.cpp
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(408): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(408): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(408): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(451): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(451): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(451): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(459): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(459): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(459): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(466): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(466): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(466): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(702): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(702): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(702): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(725): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(725): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(725): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(733): warning C4778: 'printf' : unterminated format string '%\n'
-c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(733): warning C4474: 'printf' : too many arguments passed for format string
-  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\main.cpp(733): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-  SpaceShooter.vcxproj -> C:\Users\zlkcr_000\Desktop\NJIT\Fall2017\2D Game Dev\C++ Projects\SpaceShooter\Debug\SpaceShooter.exe
-  SpaceShooter.vcxproj -> C:\Users\zlkcr_000\Desktop\NJIT\Fall2017\2D Game Dev\C++ Projects\SpaceShooter\Debug\SpaceShooter.pdb (Full PDB)
+  Sprite.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(28): error C3861: 'SDL_DisplayFormat': identifier not found
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(69): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(77): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(78): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(78): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(78): error C2660: 'SDL_SetColorKey': function does not take 1 arguments
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(126): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(135): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(207): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(207): error C2661: 'Sprite::setPixel': no overloaded function takes 2 arguments
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(214): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(433): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(448): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(449): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(449): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(449): error C2660: 'SDL_SetColorKey': function does not take 1 arguments
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(513): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(536): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(537): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(537): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(537): error C2660: 'SDL_SetColorKey': function does not take 1 arguments
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(586): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(619): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(620): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(620): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(620): error C2660: 'SDL_SetColorKey': function does not take 1 arguments
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(642): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(663): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(664): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(664): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(664): error C2660: 'SDL_SetColorKey': function does not take 1 arguments
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(701): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(703): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(707): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(725): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(726): error C2065: 'SDL_SRCCOLORKEY': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(726): error C2039: 'colorkey': is not a member of 'SDL_PixelFormat'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\sdl2\include\sdl_pixels.h(314): note: see declaration of 'SDL_PixelFormat'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.cpp(726): error C2660: 'SDL_SetColorKey': function does not take 1 arguments
+  Player.cpp
+  Level.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\level.cpp(110): warning C4018: '>=': signed/unsigned mismatch
+  GlobalSpriteResource.cpp
+  Game.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(22): error C2065: 'SDL_HWSURFACE': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(22): error C2065: 'SDL_DOUBLEBUF': undeclared identifier
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(22): error C3861: 'SDL_SetVideoMode': identifier not found
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(28): error C3861: 'SDL_EnableKeyRepeat': identifier not found
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(67): error C3861: 'SDL_Flip': identifier not found
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(132): warning C4018: '>': signed/unsigned mismatch
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(209): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(210): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(211): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(212): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(212): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(213): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(213): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(214): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(214): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(215): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(215): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(216): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(216): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(217): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(217): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(218): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(218): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(219): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(219): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(220): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(220): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(221): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(221): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(222): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(223): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(225): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(226): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(227): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(227): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(228): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(228): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(229): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(229): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(230): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(230): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(231): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(231): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(232): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(232): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(233): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(233): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(234): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(234): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(235): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(235): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(236): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(236): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(291): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(292): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(315): warning C4018: '>=': signed/unsigned mismatch
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(341): error C2248: 'Sprite::speed': cannot access private member declared in class 'Sprite'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.h(98): note: see declaration of 'Sprite::speed'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.h(111): note: see declaration of 'Sprite'
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\game.cpp(341): error C2248: 'Sprite::maxFrames': cannot access private member declared in class 'Sprite'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.h(105): note: see declaration of 'Sprite::maxFrames'
+  c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\sprite.h(111): note: see declaration of 'Sprite'
+  Explosion.cpp
+  EnemyFlight.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\enemyflight.cpp(18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Enemy.cpp
+  BulletFlight.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshooter\spaceshooter\bulletflight.cpp(21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Bullet.cpp
+  Generating Code...
