@@ -1,0 +1,61 @@
+﻿  AnimatedTexture.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  main.cpp
+  Texture.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  StartScreen.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\startscreen.cpp(80): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  StarLayer.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Star.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\star.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\star.cpp(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ScreenManager.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Scoreboard.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\scoreboard.cpp(18): warning C4018: '<': signed/unsigned mismatch
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\scoreboard.cpp(58): warning C4018: '<': signed/unsigned mismatch
+  Player.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PlaySidebar.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PlayScreen.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Level.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  InputManager.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\inputmanager.cpp(41): warning C4800: 'const Uint8': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\inputmanager.cpp(95): warning C4800: 'Uint32': forcing value to bool 'true' or 'false' (performance warning)
+  GameManager.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\gamemanager.cpp(26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\gamemanager.cpp(33): warning C4553: '==': operator has no effect; did you intend '='?
+  GameEntity.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Bullet.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  BackgroundStars.cpp
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zlkcr_000\desktop\njit\fall2017\2d game dev\c++ projects\spaceshootem\spaceshootem\mathhelper.h(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  SpaceShootem.vcxproj -> C:\Users\zlkcr_000\Desktop\NJIT\Fall2017\2D Game Dev\C++ Projects\SpaceShootem\Debug\SpaceShootem.exe
+  SpaceShootem.vcxproj -> C:\Users\zlkcr_000\Desktop\NJIT\Fall2017\2D Game Dev\C++ Projects\SpaceShootem\Debug\SpaceShootem.pdb (Partial PDB)
