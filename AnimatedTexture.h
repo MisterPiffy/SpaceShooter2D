@@ -10,7 +10,7 @@ public:
 	enum WRAP_MODE {once = 0, loop = 1};
 	enum ANIM_DIR {horizontal = 0, vertical = 1};
 
-private:
+protected:
 
 	Timer* mTimer;
 
@@ -27,6 +27,10 @@ private:
 
 	bool mAnimDone;
 
+protected:
+
+	virtual void RunAnimation();
+
 public:
 
 	AnimatedTexture(std::string fileName, int x, int y, int w, int h, int frameCount, float animSpeed, ANIM_DIR animDir);
@@ -34,7 +38,7 @@ public:
 
 	void WrapMode(WRAP_MODE mode);
 
-	void ResetAnimation();
+	virtual void ResetAnimation();
 
 	bool IsAnimating();
 

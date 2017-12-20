@@ -56,6 +56,16 @@ Texture::~Texture() {
 	mGraphics = NULL;
 }
 
+//get scaled size
+Vector2 Texture::ScaledDimensions() {
+
+	Vector2 scaledDimensions = Scale();
+	scaledDimensions.x *= mWidth;
+	scaledDimensions.y *= mHeight;
+
+	return scaledDimensions;
+}
+
 //render
 void Texture::Render() {
 

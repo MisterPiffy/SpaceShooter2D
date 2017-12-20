@@ -1,7 +1,9 @@
 #include "Bullet.h"
+#include "BoxCollider.h"
+#include "PhysicsManager.h"
 
 //constructor
-Bullet::Bullet() {
+Bullet::Bullet(bool friendly) {
 
 	mTimer = Timer::Instance();
 
@@ -12,6 +14,17 @@ Bullet::Bullet() {
 	mTexture->Pos(VEC2_ZERO);
 
 	Reload();
+
+	AddCollider(new BoxCollider(mTexture->ScaledDimensions()));
+
+	if (friendly) {
+
+		PhysicsManager::Instance()->RegisterEntity(this, PhysicsManager::CollisionLayers::FriendlyProjectiles);
+	}
+	else {
+
+		PhysicsManager::Instance()->RegisterEntity(this, PhysicsManager::CollisionLayers::HostileProjectiles);
+	}
 }
 
 //destructor
@@ -36,6 +49,11 @@ void Bullet::Reload() {
 	Active(false);
 }
 
+void Bullet::Hit(PhysEntity * other) {
+
+	Reload();
+}
+
 //update
 void Bullet::Update() {
 
@@ -58,5 +76,12 @@ void Bullet::Render() {
 	if (Active()) {
 
 		mTexture->Render();
+		//render collider
+		//PhysEntity::Render();
 	}
+}
+
+bool Bullet::IgnoreCollisions() {
+
+	return !Active();
 }

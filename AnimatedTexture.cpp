@@ -26,6 +26,33 @@ AnimatedTexture::~AnimatedTexture() {
 
 }
 
+void AnimatedTexture::RunAnimation() {
+
+	mAnimTimer += mTimer->DeltaTime();
+
+	if (mAnimTimer >= mAnimSpeed) {
+
+		if (mWrapMode == loop) {
+
+			mAnimTimer -= mAnimSpeed;
+		}
+		else {
+
+			mAnimDone = true;
+			mAnimTimer = mAnimSpeed - mTimePerFrame;
+		}
+	}
+
+	if (mAnimDir == horizontal) {
+
+		mClippedRect.x = mStartX + (int)(mAnimTimer / mTimePerFrame) * mWidth;
+	}
+	else {
+
+		mClippedRect.y = mStartY + (int)(mAnimTimer / mTimePerFrame) * mHeight;
+	}
+}
+
 //set wrap mode
 void AnimatedTexture::WrapMode(WRAP_MODE mode) {
 
@@ -48,28 +75,6 @@ void AnimatedTexture::Update() {
 
 	if (!mAnimDone) {
 
-		mAnimTimer += mTimer->DeltaTime();
-
-		if (mAnimTimer >= mAnimSpeed) {
-
-			if (mWrapMode == loop) {
-
-				mAnimTimer -= mAnimSpeed;
-			}
-			else {
-
-				mAnimDone = true;
-				mAnimTimer = mAnimSpeed - mTimePerFrame;
-			}
-		}
-
-		if (mAnimDir == horizontal) {
-			
-			mClippedRect.x = mStartX + (int)(mAnimTimer / mTimePerFrame) * mWidth;
-		}
-		else {
-
-			mClippedRect.y = mStartY + (int)(mAnimTimer / mTimePerFrame) * mHeight;
-		}
+		RunAnimation();
 	}
 }

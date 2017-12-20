@@ -23,6 +23,11 @@ PlayScreen::PlayScreen() {
 	mStartDelay = 3.0f;
 
 	mPlayer = NULL;
+
+	Enemy::CreatePaths();
+	Bruiser::CreateDivePaths();
+	Drone::CreateDivePaths();
+	MiniBoss::CreateDivePaths();
 }
 
 //destructor
@@ -68,7 +73,7 @@ void PlayScreen::StartNewGame() {
 	mPlayer->Pos(Vector2(Graphics::Instance()->SCREEN_WIDTH * 0.4f, Graphics::Instance()->SCREEN_HEIGHT * 0.8f));
 	mPlayer->Active(false);
 
-	mSideBar->SetHighScore(3000);
+	mSideBar->SetHighScore(30000);
 	mSideBar->SetLives(mPlayer->Lives());
 	mSideBar->SetPlayerScore(mPlayer->Score());
 	mSideBar->SetLevel(0);
@@ -136,8 +141,6 @@ void PlayScreen::Update() {
 //render
 void PlayScreen::Render() {
 
-	mSideBar->Render();
-
 	if (!mGameStarted) {
 
 		mStartLabel->Render();
@@ -151,4 +154,6 @@ void PlayScreen::Render() {
 
 		mPlayer->Render();
 	}
+
+	mSideBar->Render();
 }

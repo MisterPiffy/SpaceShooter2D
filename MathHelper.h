@@ -5,6 +5,7 @@
 
 #define PI 3.14159265
 #define DEG_TO_RAD PI / 180.0f
+#define RAD_TO_DEG 180.0f / PI
 
 struct Vector2 {
 
@@ -76,6 +77,18 @@ inline Vector2 operator *(const Vector2& lhs, const float& rhs) {
 inline Vector2 operator *(const float& lhs, const Vector2& rhs) {
 
 	return Vector2(lhs * rhs.x, lhs * rhs.y);
+}
+
+//div
+inline Vector2 operator /(const Vector2& lhs, const float& rhs) {
+
+	return Vector2(lhs.x / rhs, lhs.y / rhs);
+}
+
+//div
+inline Vector2 operator /(const float& lhs, const Vector2& rhs) {
+
+	return Vector2(lhs / rhs.x, lhs / rhs.y);
 }
 
 //rotating vectors

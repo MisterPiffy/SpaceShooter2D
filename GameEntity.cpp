@@ -146,7 +146,8 @@ void GameEntity::Translate(Vector2 vec, SPACE space) {
 
 //rotate
 void GameEntity::Rotate(float amount) {
-	mRotation += amount;
+
+	Rotation(mRotation + amount);
 }
 
 //update entities

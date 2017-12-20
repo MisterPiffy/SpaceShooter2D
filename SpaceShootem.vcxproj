@@ -127,13 +127,26 @@
     <ClInclude Include="AssetManager.h" />
     <ClInclude Include="AudioManager.h" />
     <ClInclude Include="BackgroundStars.h" />
+    <ClInclude Include="BezierPath.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Bruiser.h" />
     <ClInclude Include="Bullet.h" />
+    <ClInclude Include="CaptureBeam.h" />
+    <ClInclude Include="CircleCollider.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Drone.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Formation.h" />
     <ClInclude Include="GameEntity.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="MiniBoss.h" />
+    <ClInclude Include="PhysEntity.h" />
+    <ClInclude Include="PhysicsHelper.h" />
+    <ClInclude Include="PhysicsManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayScreen.h" />
     <ClInclude Include="PlaySideBar.h" />
@@ -144,19 +157,32 @@
     <ClInclude Include="StartScreen.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="tinyxml2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimatedTexture.cpp" />
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="AudioManager.cpp" />
     <ClCompile Include="BackgroundStars.cpp" />
+    <ClCompile Include="BezierPath.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Bruiser.cpp" />
     <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="CaptureBeam.cpp" />
+    <ClCompile Include="CircleCollider.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Drone.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Formation.cpp" />
     <ClCompile Include="GameEntity.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MiniBoss.cpp" />
+    <ClCompile Include="PhysEntity.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayScreen.cpp" />
     <ClCompile Include="PlaySidebar.cpp" />
@@ -167,6 +193,7 @@
     <ClCompile Include="StartScreen.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

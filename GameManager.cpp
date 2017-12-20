@@ -41,6 +41,13 @@ GameManager::GameManager() {
 
 	mTimer = Timer::Instance();
 
+	mPhysMgr = PhysicsManager::Instance();
+	//set layer masks
+	mPhysMgr->SetLayerCollisionMask(PhysicsManager::CollisionLayers::Friendly, PhysicsManager::CollisionFlags::Hostile | PhysicsManager::CollisionFlags::HostileProjectiles);
+	mPhysMgr->SetLayerCollisionMask(PhysicsManager::CollisionLayers::FriendlyProjectiles, PhysicsManager::CollisionFlags::Hostile);
+	mPhysMgr->SetLayerCollisionMask(PhysicsManager::CollisionLayers::Hostile, PhysicsManager::CollisionFlags::Friendly | PhysicsManager::CollisionFlags::FriendlyProjectiles);
+	mPhysMgr->SetLayerCollisionMask(PhysicsManager::CollisionLayers::HostileProjectiles, PhysicsManager::CollisionFlags::Friendly);
+
 	mScreenMgr = ScreenManager::Instance();
 }
 
@@ -49,6 +56,9 @@ GameManager::~GameManager() {
 
 	ScreenManager::Release();
 	mScreenMgr = NULL;
+
+	PhysicsManager::Release();
+	mPhysMgr = NULL;
 
 	AudioManager::Release();
 	mAudioMgr = NULL;
@@ -92,6 +102,7 @@ void GameManager::Render() {
 //late update
 void GameManager::LateUpdate() {
 
+	mPhysMgr->Update();
 	mInputMgr->UpdatePrevInput();
 	mTimer->Reset();
 }

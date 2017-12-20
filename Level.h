@@ -3,6 +3,12 @@
 #include "PlaySideBar.h"
 #include "BackgroundStars.h"
 #include "Player.h"
+#include "Drone.h"
+#include "Bruiser.h"
+#include "MiniBoss.h"
+#include "tinyxml2.h"
+
+using namespace tinyxml2;
 
 class Level : public GameEntity {
 
@@ -42,7 +48,53 @@ private:
 	float mGameOverTimer;
 	float mGameOverLabelOnScreen;
 
+	float mLevelTimer;
+	float mNextLevelDelay;
+
 	LEVEL_STATES mCurrentState;
+
+	bool mChallengeStage;
+
+	Formation* mFormation;
+
+	static const int MAX_DRONES = 16;
+	int mDroneCount;
+
+	static const int MAX_BRUISER = 20;
+	int mBruiserCount;
+
+	static const int MAX_MINIBOSS = 4;
+	int mMiniBossCount;
+
+	Drone* mFormationDrone[MAX_DRONES];
+	Bruiser* mFormationBruiser[MAX_BRUISER];
+	MiniBoss* mFormationMiniBoss[MAX_MINIBOSS];
+
+	std::vector<Enemy*> mEnemies;
+
+	XMLDocument mSpawningPatterns;
+	int mCurrentFlyinPriority;
+	int mCurrentFlyinIndex;
+
+	bool mSpawningFinished;
+	float mSpawnDelay;
+	float mSpawnTimer;
+
+	Drone* mDivingDrone;
+	bool mSkipFirstDrone;
+	float mDroneDiveDelay;
+	float mDroneDiveTimer;
+
+	Bruiser* mDivingBruiser;
+	Bruiser* mDivingBruiser2;
+	float mBruiserDiveDelay;
+	float mBruiserDiveTimer;
+
+	MiniBoss* mDivingMiniBoss;
+	bool mCaptureDive;
+	bool mSkipFirstBoss;
+	float mBossDiveDelay;
+	float mBossDiveTimer;
 
 private:
 
@@ -50,6 +102,11 @@ private:
 	void HandleStartLabels();
 	void HandleCollisions();
 	void HandlePlayerDeath();
+
+	bool EnemyFlyingIn();
+	void HandleEnemySpawning();
+	void HandleEnemyFormation();
+	void HandleEnemyDiving();
 
 public:
 
