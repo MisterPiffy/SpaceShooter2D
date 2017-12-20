@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+  <ChallengeStage value="false"/>
+<Spawn path="1" priority="0">
+  <Enemy type="Drone" index="0"/>
+  <Enemy type="Drone" index="1"/>
+  <Enemy type="Drone" index="2"/>
+  <Enemy type="Drone" index="3"/>
+</Spawn>
+<Spawn path="0" priority="0">
+  <Enemy type="Bruiser" index="0"/>
+  <Enemy type="Bruiser" index="1"/>
+  <Enemy type="Bruiser" index="2"/>
+  <Enemy type="Bruiser" index="3"/>
+</Spawn>
+<Spawn path="2" priority="1">
+  <Enemy type="MiniBoss" index="2"/>
+  <Enemy type="Drone" index="4"/>
+  <Enemy type="MiniBoss" index="0"/>
+  <Enemy type="Drone" index="5"/>
+  <Enemy type="MiniBoss" index="1"/>
+  <Enemy type="Drone" index="6"/>
+  <Enemy type="MiniBoss" index="3"/>
+  <Enemy type="Drone" index="7"/>
+</Spawn>
+<Spawn path="3" priority="2">
+  <Enemy type="Drone" index="8"/>
+  <Enemy type="Drone" index="9"/>
+  <Enemy type="Drone" index="10"/>
+  <Enemy type="Drone" index="11"/>
+  <Enemy type="Drone" index="12"/>
+  <Enemy type="Drone" index="13"/>
+  <Enemy type="Drone" index="14"/>
+  <Enemy type="Drone" index="15"/>
+</Spawn>
+<Spawn path="0" priority="3">
+  <Enemy type="Bruiser" index="4"/>
+  <Enemy type="Bruiser" index="5"/>
+  <Enemy type="Bruiser" index="6"/>
+  <Enemy type="Bruiser" index="7"/>
+  <Enemy type="Bruiser" index="8"/>
+  <Enemy type="Bruiser" index="9"/>
+  <Enemy type="Bruiser" index="10"/>
+  <Enemy type="Bruiser" index="11"/>
+</Spawn>
+<Spawn path="1" priority="4">
+  <Enemy type="Bruiser" index="12"/>
+  <Enemy type="Bruiser" index="13"/>
+  <Enemy type="Bruiser" index="14"/>
+  <Enemy type="Bruiser" index="15"/>
+  <Enemy type="Bruiser" index="16"/>
+  <Enemy type="Bruiser" index="17"/>
+  <Enemy type="Bruiser" index="18"/>
+  <Enemy type="Bruiser" index="19"/>
+</Spawn>
+</Level>
